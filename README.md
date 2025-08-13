@@ -57,7 +57,7 @@ This project was built with a strong emphasis on clean, maintainable, and scalab
 ##  Tech Stack
 
   * **Framework:** ASP.NET Core 8
-  * **Database:** Entity Framework Core 8 with SQL Server (or SQLite)
+  * **Database:** Entity Framework Core 8 with SQL Server 
   * **Authentication:** ASP.NET Core Identity & JWT Bearer Tokens
   * **Architecture:** 3-Tier, Repository, Unit of Work
 
