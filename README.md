@@ -50,8 +50,6 @@ This project was built with a strong emphasis on clean, maintainable, and scalab
   * **Layered (3-Tier) Architecture:** A clear separation of concerns between the Presentation Layer (`API`), Business Logic Layer (`BLL`), and Data Access Layer (`DAL`).
   * **Repository & Unit of Work Patterns:** The DAL uses these patterns to abstract data access logic and ensure atomic transactions, maintaining data integrity across complex operations.
   * **Result Pattern for Services:** The BLL uses a unified `Result<T>` pattern for all service responses, providing robust and predictable error handling without relying on exceptions for control flow.
-  * **Global Exception Handling:** A custom middleware catches all unhandled exceptions, logs them, and returns a clean, standardized error response to the client.
-
 -----
 
 ##  Tech Stack
