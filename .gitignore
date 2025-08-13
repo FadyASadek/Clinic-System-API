@@ -1,0 +1,14 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+.vs/
+
+# User-specific files
+*.user
+secrets.json
+appsettings.Development.json
+
+# Local database files
+*.db
